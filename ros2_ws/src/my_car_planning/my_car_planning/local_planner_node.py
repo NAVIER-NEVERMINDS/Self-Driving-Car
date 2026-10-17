@@ -20,6 +20,7 @@ from sensor_msgs.msg import PointCloud2, LaserScan
 from std_msgs.msg import Float32
 import numpy as np
 import time
+import logging
 import casadi as ca
 import do_mpc
 
